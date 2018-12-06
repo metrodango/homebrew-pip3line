@@ -2,7 +2,7 @@ class Pip3line < Formula
   desc "Swiss Army knife for raw bytes manipulation & interception"
   homepage "https://metrodango.github.io/pip3line/index.html"
   url "https://github.com/metrodango/pip3line/archive/v3.5.5.tar.gz"
-  sha256 "6a85641ded664e64a225b76959e1982eee7e557816d1edb09d47600b7ed15781"
+  sha256 "0d886d650eae37047bc24f5bf74bcbf89eaaeb2a45994464ac78a45796f84774"
   depends_on "cmake" => :build
   depends_on "openssl"
   depends_on "python"
