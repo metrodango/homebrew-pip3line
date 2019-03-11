@@ -11,7 +11,7 @@ class Pip3line < Formula
   depends_on "qt"
 
   def install
-    ENV["DISTORM_MODE"]="static"
+    ENV["DISTORM_MODE"]="ON"
     system "cmake", ".", *std_cmake_args, "-DALL=ON", "-DWITH_PYTHON27=OFF", "-DWITH_SCINTILLA=ON", "-DWITH_DISTORM_LINK_STATICALLY=ON"
     system "make", "install"
   end
